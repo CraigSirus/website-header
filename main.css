@@ -25,9 +25,20 @@ body, html {
     background: none !important;
     color: black !important;
     border: 1px solid black !important;
+    transition: 1s;
 }
 
 .site-btn:hover {
-    background: rgb(182, 182, 182) !important;
-    color: rgb(48, 48, 48) !important;
+    background: rgb(109, 109, 109) !important;
+    color: rgb(216, 216, 216) !important;
+    transform: translateY(3px);
+}
+
+.search-btn {
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+.search-btn:hover {
+    background:rgb(226, 226, 226);
 }
