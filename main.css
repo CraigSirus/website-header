@@ -1,0 +1,33 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background: rgb(253, 253, 253);
+}
+
+.header {
+    padding: 50px;
+}
+
+.title {
+    color: rgb(68, 68, 68);
+}
+
+.jumbotron {
+    background: rgb(224, 224, 224);
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.site-btn {
+    padding: 10px !important;
+    background: none !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.site-btn:hover {
+    background: rgb(182, 182, 182) !important;
+    color: rgb(48, 48, 48) !important;
+}
